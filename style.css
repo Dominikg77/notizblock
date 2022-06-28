@@ -1,0 +1,120 @@
+body {
+    margin-top: 100px;
+    background-color: grey;
+}
+
+.fillDesigne {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(203, 203, 203, 0.214);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.361);
+    margin-bottom: 36px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+input {
+    background-color: rgba(128, 128, 128, 0.214);
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.361);
+    margin-top: 10px;
+}
+
+#inputs button {
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 300px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 32px;
+    background-color: rgba(0, 170, 255, 0.537);
+    color: white;
+    font-size: 20px;
+}
+
+#inputs button:hover {
+    background-color: rgba(0, 170, 255, 0.811);
+}
+
+a {
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    font-size: 20px;
+    color: rgb(69, 3, 3);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 225ms ease-in-out;
+    -webkit-transition: all 225ms ease-in-out;
+    -moz-transition: all 225ms ease-in-out;
+    -ms-transition: all 225ms ease-in-out;
+    -o-transition: all 225ms ease-in-out;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+    padding-bottom: -30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img-delet {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.note {
+    border: 2px solid rgba(0, 0, 0, 0.133);
+    padding: 10px;
+    margin-bottom: 32px;
+    width: 300px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.fillNote {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 200px;
+}
